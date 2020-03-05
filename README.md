@@ -10,14 +10,13 @@ Make a copy of the following files and save them in a backup folder somewhere:
 - TerraformingMars_Data\Managed\Assembly-CSharp.dll
 
 Download TFM_speedmod.zip and extract the contents then copy the modded files into their respective location as above.
-1, For animation speed changes copy and change sharedassets0.assets and select the "Slow" option on the settings panel in-game.
-2, For turning off confirmation popups copy and change Assembly-CSharp.dll.
+- For animation speed changes copy and change sharedassets0.assets and select the "Slow" setting on the animation speed panel in-game.
+- For turning off confirmation popups copy and change Assembly-CSharp.dll.
 
 
 Known issues:
 -------------
-- 100x speed modifier is too fast for the productionBar and globalparameterBar animations to handle, remnants of the animation clips remain on screen after the animationclip plays
-screenshot: http://s000.tinyupload.com/?file_id=56216583134709647930
+- 100x speed modifier is too fast for the productionBar and globalparameterBar animations to handle, remnants of the animation clips remain on screen after they play: http://s000.tinyupload.com/?file_id=56216583134709647930
 (slight cosmetic glitch only, not sure if easily fixable)
 
 - endgame scoring animation ("Horserace" class) is too fast due to being affected by the animationspeed modifier, takes away the excitement of the final tally
