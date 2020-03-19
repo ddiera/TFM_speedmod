@@ -23,7 +23,7 @@ screenshot: http://s000.tinyupload.com/?file_id=56216583134709647930
 
 Changelog:
 ----------
-v1.1:
+v1.01:
 - "HUD_PassDevicePopup" (Local play) and "HUD_OppenentForfeitedPopup" (Online play) classes now activate DisplayPopup method on instance
 - "Horserace class" is now using hardcoded animation speed float values if mod is active (reverts to scaled setting if mod is inactive)
 
