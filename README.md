@@ -20,15 +20,14 @@ Known issues:
 screenshot: http://s000.tinyupload.com/?file_id=56216583134709647930
 (slight cosmetic glitch only, not sure if easily fixable)
 
-- endgame scoring animation ("Horserace" class) is too fast due to being affected by the animationspeed modifier, takes away the excitement of the final tally
-(FIXABLE: can be forced to use hardcoded float values in the script to enforce normal animation speed)
 
-- opponent forfeits don't show up when the AI takes over
-(FIXABLE: "HUD_OpponentForfeitPopup" class is using "HUD_SimpleTextPopup" as base class, need new logic in script to identify forfeit instance)
+Changelog:
+----------
+v1.1:
+- "HUD_PassDevicePopup" (Local play) and "HUD_OppenentForfeitedPopup" (Online play) classes now activate DisplayPopup method on instance
+- "Horserace class" is now using hardcoded animation speed float values if mod is active (reverts to scaled setting if mod is inactive)
 
-
-Changelog v1:
--------------
-- changed the float value in the corresponding "Monobehaviour Slow" assset from 0.8 to 100
+v1:
+- changed the animation speed float value in the corresponding "Monobehaviour Slow" assset from 0.8 to 100
 - modified "HUD_EndTurnPanel" class in the assembly to deactivate popup activation on instance
 - modified "HUD_SimpleTextPopup" class in the assembly to deactivate popup activation on instance
