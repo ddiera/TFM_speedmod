@@ -13,8 +13,11 @@ Download TFM_speedmod.zip and extract the contents then copy the modded files in
 1, For animation speed changes copy and change sharedassets0.assets and select the "Slow" option on the settings panel in-game.
 2, For turning off confirmation popups copy and change Assembly-CSharp.dll and toggle off "Confirmation Popup" in Settings 
 
-(note: certain kinds of game-essential notifications still activate - e.g: opponent forfeit, local game player turn phase, etc)
+(note: certain kinds of game-essential notifications still activate - e.g: opponent forfeit, local game player handover, etc)
 
+DISCLAIMER:
+By installing this mod you will no longer be able to exploit the Protected Habitat bug, consider this the blood-price to pay if you want to use the mod. ;)
+If you are the type of player who enjoys playing dirty you shouldn't be using this mod in the first place.
 
 Known issues:
 -------------
@@ -27,6 +30,7 @@ Changelog:
 ----------
 v1.02
 - "OnTurnSelected" method in "HUD_EndTurnPanel" class is now responsive of "Confirmation Popup" button settings
+- "HighlightFirstElement" method in "StealResourceScreen" class no longer pre-selects a player on the attack panel 
 
 v1.01:
 - "HUD_PassDevicePopup" (Local play) and "HUD_OppenentForfeitedPopup" (Online play) classes now activate "DisplayPopup" method in base class on instance
