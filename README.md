@@ -15,8 +15,8 @@ Download TFM_speedmod.zip and extract the contents then copy the modded files in
 
 (note: certain kinds of game-essential notifications still activate - e.g: opponent forfeit, local game player handover, etc)
 
-DISCLAIMER:\
-By installing this mod you will no longer be able to exploit the Protected Habitat bug, consider this the blood-price to pay if you want to use the mod. ;)
+**DISCLAIMER:**\
+_By installing this mod you will no longer be able to exploit the Protected Habitat bug, consider this the blood-price to pay if you want to use the mod. ;)
 If you are the type of player who enjoys playing dirty you shouldn't be using this mod in the first place.
 
 Known issues:
