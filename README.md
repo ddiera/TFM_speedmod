@@ -10,24 +10,32 @@ Make a copy of the following files and save them in a backup folder somewhere:
 - TerraformingMars_Data\Managed\Assembly-CSharp.dll
 
 Download TFM_speedmod.zip and extract the contents then copy the modded files into their respective location as above.
-- For animation speed changes copy and change sharedassets0.assets and select the "Slow" setting on the animation speed panel in-game.
-- For turning off confirmation popups copy and change Assembly-CSharp.dll.
+1, For animation speed changes copy and change sharedassets0.assets and select the "Slow" option on the settings panel in-game.
+2, For turning off confirmation popups copy and change Assembly-CSharp.dll and toggle off "Confirmation Popup" in Settings 
 
+(note: certain kinds of game-essential notifications still activate - e.g: opponent forfeit, local game player handover, etc)
+
+**DISCLAIMER:**\
+_By installing this mod you will no longer be able to exploit the Protected Habitat bug, consider this the blood-price to pay if you want to use the mod. ;)
+If you are the type of player who enjoys playing dirty you shouldn't be using this mod in the first place._
 
 Known issues:
 -------------
 - 100x speed modifier is too fast for the productionBar and globalparameterBar animations to handle, remnants of the animation clips remain on screen after they play: http://s000.tinyupload.com/?file_id=56216583134709647930
 (slight cosmetic glitch only, not sure if easily fixable)
 
-- endgame scoring animation ("Horserace" class) is too fast due to being affected by the animationspeed modifier, takes away the excitement of the final tally
-(FIXABLE: can be forced to use hardcoded float values in the script to enforce normal animation speed)
 
-- opponent forfeits don't show up when the AI takes over
-(FIXABLE: "HUD_OpponentForfeitPopup" class is using "HUD_SimpleTextPopup" as base class, need new logic in script to identify forfeit instance)
+Changelog:
+----------
+v1.02
+- "OnTurnSelected" method in "HUD_EndTurnPanel" class is now responsive of "Confirmation Popup" button settings
+- "HighlightFirstElement" method in "StealResourceScreen" class no longer pre-selects a player on the attack panel 
 
+v1.01:
+- "HUD_PassDevicePopup" (Local play) and "HUD_OppenentForfeitedPopup" (Online play) classes now activate "DisplayPopup" method in base class on instance
+- "Horserace" class is now using hardcoded animation speed float values if mod is active (reverts to scaled settings if mod is inactive)
 
-Changelog v1:
--------------
-- changed the float value in the corresponding "Monobehaviour Slow" assset from 0.8 to 100
+v1:
+- changed the animation speed float value in the corresponding "Monobehaviour Slow" assset from 0.8 to 100
 - modified "HUD_EndTurnPanel" class in the assembly to deactivate popup activation on instance
 - modified "HUD_SimpleTextPopup" class in the assembly to deactivate popup activation on instance
