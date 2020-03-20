@@ -9,14 +9,14 @@ Make a copy of the following files and save them in a backup folder somewhere:
 - TerraformingMars_Data\sharedassets0.assets
 - TerraformingMars_Data\Managed\Assembly-CSharp.dll
 
-Download TFM_speedmod.zip and extract the contents then copy the modded files into their respective location as above.
-1, For animation speed changes copy and change sharedassets0.assets and select the "Slow" option on the settings panel in-game.
-2, For turning off confirmation popups copy and change Assembly-CSharp.dll and toggle off "Confirmation Popup" in Settings 
+Download TFM_speedmod.zip and extract the contents then copy the modded files into their respective location as above.\
+- For animation speed changes copy and change sharedassets0.assets and select the "Slow" option on the settings panel in-game.
+- For turning off confirmation popups copy and change Assembly-CSharp.dll and toggle off "Confirmation Popup" in Settings 
 
 (note: certain kinds of game-essential notifications still activate - e.g: opponent forfeit, local game player handover, etc)
 
 **DISCLAIMER:**\
-_By installing this mod you will no longer be able to exploit the Protected Habitat bug, consider this the blood-price to pay if you want to use the mod. ;)
+_By installing you will no longer be able to exploit the Protected Habitat bug, consider this the blood-price to pay if you want to use the mod. ;)
 If you are the type of player who enjoys playing dirty you shouldn't be using this mod in the first place._
 
 Known issues:
