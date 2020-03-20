@@ -21,8 +21,7 @@ If you are the type of player who enjoys playing dirty you shouldn't be using th
 
 Known issues:
 -------------
-- 100x speed modifier is too fast for the productionBar and globalparameterBar animations to handle, remnants of the animation clips remain on screen after the animationclip plays
-screenshot: http://s000.tinyupload.com/?file_id=56216583134709647930
+- 100x speed modifier is too fast for the productionBar and globalparameterBar animations to handle, remnants of the animation clips remain on screen after they play: http://s000.tinyupload.com/?file_id=56216583134709647930
 (slight cosmetic glitch only, not sure if easily fixable)
 
 
