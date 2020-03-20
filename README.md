@@ -11,7 +11,9 @@ Make a copy of the following files and save them in a backup folder somewhere:
 
 Download TFM_speedmod.zip and extract the contents then copy the modded files into their respective location as above.
 1, For animation speed changes copy and change sharedassets0.assets and select the "Slow" option on the settings panel in-game.
-2, For turning off confirmation popups copy and change Assembly-CSharp.dll.
+2, For turning off confirmation popups copy and change Assembly-CSharp.dll and toggle off "Confirmation Popup" in Settings 
+
+(note: certain kinds of game-essential notifications still activate - e.g: opponent forfeit, local game player turn phase, etc)
 
 
 Known issues:
@@ -23,9 +25,12 @@ screenshot: http://s000.tinyupload.com/?file_id=56216583134709647930
 
 Changelog:
 ----------
+v1.02
+- "OnTurnSelected" method in "HUD_EndTurnPanel" class is now responsive of "Confirmation Popup" button settings
+
 v1.01:
-- "HUD_PassDevicePopup" (Local play) and "HUD_OppenentForfeitedPopup" (Online play) classes now activate DisplayPopup method on instance
-- "Horserace class" is now using hardcoded animation speed float values if mod is active (reverts to scaled setting if mod is inactive)
+- "HUD_PassDevicePopup" (Local play) and "HUD_OppenentForfeitedPopup" (Online play) classes now activate "DisplayPopup" method in base class on instance
+- "Horserace" class is now using hardcoded animation speed float values if mod is active (reverts to scaled settings if mod is inactive)
 
 v1:
 - changed the animation speed float value in the corresponding "Monobehaviour Slow" assset from 0.8 to 100
