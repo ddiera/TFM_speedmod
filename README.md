@@ -10,8 +10,8 @@ Make a copy of the following files and save them in a backup folder somewhere:
 - TerraformingMars_Data\Managed\Assembly-CSharp.dll
 
 Download TFM_speedmod.zip and extract the contents then copy the modded files into their respective location as above.\
-- For animation speed changes copy and change sharedassets0.assets and select the "Slow" option on the settings panel in-game.
-- For turning off confirmation popups copy and change Assembly-CSharp.dll and toggle off "Confirmation Popup" in Settings 
+1, For animation speed changes copy and change sharedassets0.assets and select the "Slow" option on the settings panel in-game.\
+2, For turning off confirmation popups copy and change Assembly-CSharp.dll and toggle off "Confirmation Popup" in Settings 
 
 (note: certain kinds of game-essential notifications still activate - e.g: opponent forfeit, local game player handover, etc)
 
