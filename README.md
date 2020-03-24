@@ -22,11 +22,14 @@ If you are the type of player who enjoys playing dirty you shouldn't be using th
 Known issues:
 -------------
 - 100x speed modifier is too fast for the productionBar and globalparameterBar animations to handle, remnants of the animation clips remain on screen after they play: http://s000.tinyupload.com/?file_id=56216583134709647930
-(slight cosmetic glitch only, not sure if easily fixable)
+(cosmetic glitch only, not sure if easily fixable)
 
 
 Changelog:
 ----------
+v1.03
+- modified "HighlightFirstElement" method, online and local games now use the current player as the default target, solo games default to neutral player
+
 v1.02
 - "OnTurnSelected" method in "HUD_EndTurnPanel" class is now responsive of "Confirmation Popup" button settings
 - "HighlightFirstElement" method in "StealResourceScreen" class no longer pre-selects a player on the attack panel 
