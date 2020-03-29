@@ -10,10 +10,18 @@ Make a copy of the following files and save them in a backup folder somewhere:
 - TerraformingMars_Data\Managed\Assembly-CSharp.dll
 
 Download TFM_speedmod.zip and extract the contents then copy the modded files into their respective location as above.\
-1, For animation speed changes copy and change sharedassets0.assets and select the "Slow" option on the settings panel in-game.\
-2, For turning off confirmation popups copy and change Assembly-CSharp.dll and toggle off "Confirmation Popup" in Settings 
+1, For animation speed changes select the "Slow" option in the Settings panel in-game.\
+2, For turning off confirmation popups toggle the "Confirmation Popup" button off in Settings.
 
-(note: certain kinds of game-essential notifications still activate - e.g: opponent forfeit, local game player handover, etc)
+note - popups that are disabled by the mod are:\
+1, end of turn confirmation\
+2, player passed (online game)\
+3, player passed (local game)\
+4, "no cards selected" warning in research phase\
+5, "buy cards after draft" confirmation\
+6, first draft phase notification
+
+certain kinds of game-essential notifications still activate - e.g: opponent forfeit, local game player handover, etc
 
 **DISCLAIMER:**\
 _By installing you will no longer be able to exploit the Protected Habitat bug, consider this the blood-price to pay if you want to use the mod. ;)
@@ -27,6 +35,9 @@ Known issues:
 
 Changelog:
 ----------
+v1.04
+- modified "HUD_SimpletextPopup" class so popup activation is now controlled by "DoDisableConfirmDialogs" toggle settings
+
 v1.03
 - modified "HighlightFirstElement" method, online and local games now use the current player as the default target, solo games default to neutral player
 
