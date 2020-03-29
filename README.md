@@ -10,10 +10,10 @@ Make a copy of the following files and save them in a backup folder somewhere:
 - TerraformingMars_Data\Managed\Assembly-CSharp.dll
 
 Download TFM_speedmod.zip and extract the contents then copy the modded files into their respective location as above.\
-1, For animation speed changes select the "Slow" option on the settings panel in-game.\
+1, For animation speed changes select the "Slow" option in the Settings panel in-game.\
 2, For turning off confirmation popups toggle the "Confirmation Popup" button off in Settings.
 
-(note - popups that are disabled by the mod are:\
+note - popups that are disabled by the mod are:\
 1, end of turn confirmation\
 2, player passed (online game)\
 3, player passed (local game)\
