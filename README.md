@@ -21,7 +21,7 @@ note - popups that are disabled by the mod are:\
 5, "buy cards after draft" confirmation\
 6, first draft phase notification
 
-certain kinds of game-essential notifications still activate - e.g: opponent forfeit, local game player handover, etc)
+certain kinds of game-essential notifications still activate - e.g: opponent forfeit, local game player handover, etc
 
 **DISCLAIMER:**\
 _By installing you will no longer be able to exploit the Protected Habitat bug, consider this the blood-price to pay if you want to use the mod. ;)
