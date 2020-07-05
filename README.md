@@ -36,6 +36,9 @@ Known issues:
 
 Changelog:
 ----------
+v1.06
+- fixed game stalling when opponent forfeits ("Opponentforfeit" popup asset does not pause the gameflow anymore)
+
 v1.05
 - amended the localization terms of the animation panel tooltip and button label text in "I2.Loc.LanguageSource"
 
