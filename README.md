@@ -36,6 +36,9 @@ Known issues:
 
 Changelog:
 ----------
+v1.07
+- mod is now compatible with TFM release v1.1718
+
 v1.06
 - fixed game stalling when opponent forfeits ("Opponentforfeit" popup asset does not pause the gameflow anymore)
 
