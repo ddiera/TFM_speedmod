@@ -1,5 +1,11 @@
 # TFM_speedmod
 
+NOTE:
+-------------
+Most features don't work anymore, but if you want to change the game speed just replace "sharedasets0.assets" in your game directory.
+Keep in mind this will speed up the end game score tally animation as well!
+
+
 Instructions:
 -------------
 To mod your game open the Steam Client and go to "Library" -» right click on Terraforming Mars -» select "Properties" -» click on "Local Files" -»  "Browse Local Files" which will get you to the game directory.
